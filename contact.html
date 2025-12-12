@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Kontaktieren Sie uns für eine kostenlose Beratung. Wir sind Ihr Partner für digitale Transformation und Smart Business Solutions.">
+    <meta name="keywords" content="Kontakt, Beratung, Anfrage, Termin, Support">
+    <meta name="author" content="Your Business Name">
+    
+    <title>Kontakt - Smart Business Solutions</title>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                SmartBusiness
+            </a>
+            
+            <div class="navbar-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">Über Uns</a></li>
+                <li><a href="contact.html" class="active">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Page Header -->
+    <section class="hero">
+        <div class="container">
+            <h1>Kontaktieren Sie uns</h1>
+            <p>
+                Haben Sie Fragen oder möchten Sie ein Projekt besprechen? 
+                Wir freuen uns auf Ihre Nachricht!
+            </p>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing-lg);">
+                
+                <!-- Contact Form -->
+                <div>
+                    <h2 class="mb-2">Senden Sie uns eine Nachricht</h2>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <label for="name">Ihr Name *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="form-control" 
+                                placeholder="Max Mustermann"
+                                required>
+                        </div>
+                        
+                        <!-- Email Field -->
+                        <div class="form-group">
+                            <label for="email">Ihre E-Mail-Adresse *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-control" 
+                                placeholder="max@beispiel.de"
+                                required>
+                        </div>
+                        
+                        <!-- Phone Field (Optional) -->
+                        <div class="form-group">
+                            <label for="phone">Telefonnummer (optional)</label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone" 
+                                class="form-control" 
+                                placeholder="+49 123 456789">
+                        </div>
+                        
+                        <!-- Subject Field (Optional) -->
+                        <div class="form-group">
+                            <label for="subject">Betreff</label>
+                            <input 
+                                type="text" 
+                                id="subject" 
+                                name="subject" 
+                                class="form-control" 
+                                placeholder="Beratungsanfrage">
+                        </div>
+                        
+                        <!-- Message Field -->
+                        <div class="form-group">
+                            <label for="message">Ihre Nachricht *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="form-control" 
+                                rows="6"
+                                placeholder="Beschreiben Sie Ihr Anliegen oder Projekt..."
+                                required></textarea>
+                        </div>
+                        
+                        <!-- Privacy Checkbox -->
+                        <div class="form-group" style="display: flex; align-items: start; gap: 0.5rem;">
+                            <input 
+                                type="checkbox" 
+                                id="privacy" 
+                                name="privacy" 
+                                required
+                                style="margin-top: 4px;">
+                            <label for="privacy" style="margin: 0; font-weight: normal;">
+                                Ich habe die <a href="#" style="color: var(--primary-color);">Datenschutzerklärung</a> 
+                                zur Kenntnis genommen. Ich stimme zu, dass meine Angaben zur Kontaktaufnahme 
+                                und für Rückfragen gespeichert werden. *
+                            </label>
+                        </div>
+                        
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Nachricht senden
+                        </button>
+                        
+                        <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-light);">
+                            * Pflichtfelder
+                        </p>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div>
+                    <h2 class="mb-2">Kontaktinformationen</h2>
+                    
+                    <div class="contact-info">
+                        <!-- Address -->
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;">Adresse</h4>
+                                <p style="margin: 0;">
+                                    <!-- Replace with your actual address -->
+                                    Musterstraße 123<br>
+                                    12345 Musterstadt<br>
+                                    Deutschland
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;">Telefon</h4>
+                                <p style="margin: 0;">
+                                    <!-- Replace with your phone number -->
+                                    <a href="tel:+491234567890" style="color: var(--primary-color);">
+                                        +49 123 456 7890
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;">E-Mail</h4>
+                                <p style="margin: 0;">
+                                    <!-- Replace with your email -->
+                                    <a href="mailto:info@smartbusiness.de" style="color: var(--primary-color);">
+                                        info@smartbusiness.de
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Business Hours -->
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;">Geschäftszeiten</h4>
+                                <p style="margin: 0;">
+                                    <!-- Customize your business hours -->
+                                    Montag - Freitag: 9:00 - 18:00 Uhr<br>
+                                    Samstag: Nach Vereinbarung<br>
+                                    Sonntag: Geschlossen
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional Information -->
+                    <div class="card mt-2">
+                        <h3>Schnelle Antwort garantiert</h3>
+                        <p>
+                            Wir bemühen uns, alle Anfragen innerhalb von 24 Stunden zu beantworten. 
+                            In dringenden Fällen rufen Sie uns bitte direkt an.
+                        </p>
+                    </div>
+                    
+                    <div class="card mt-2">
+                        <h3>💬 Bevorzugte Kontaktmethode</h3>
+                        <p>
+                            Am besten erreichen Sie uns per E-Mail oder über das Kontaktformular. 
+                            Für dringende Anliegen stehen wir Ihnen auch telefonisch zur Verfügung.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-3">Häufig gestellte Fragen</h2>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="card mb-2">
+                    <h3>Wie läuft eine Beratung ab?</h3>
+                    <p>
+                        Das Erstgespräch ist kostenlos und unverbindlich. Wir besprechen Ihre 
+                        Anforderungen, analysieren Ihre Situation und entwickeln erste Lösungsansätze. 
+                        Danach erhalten Sie ein detailliertes Angebot.
+                    </p>
+                </div>
+                
+                <div class="card mb-2">
+                    <h3>Was kostet eine Website?</h3>
+                    <p>
+                        Die Kosten hängen vom Umfang und den gewünschten Funktionen ab. 
+                        Einfache Websites starten bei wenigen hundert Euro, während umfangreichere 
+                        Projekte mit E-Commerce oder individuellen Funktionen entsprechend mehr kosten. 
+                        Wir erstellen Ihnen gerne ein individuelles Angebot.
+                    </p>
+                </div>
+                
+                <div class="card mb-2">
+                    <h3>Wie lange dauert ein Projekt?</h3>
+                    <p>
+                        Das kommt auf den Projektumfang an. Eine einfache Website kann in 1-2 Wochen 
+                        fertig sein, während komplexere Projekte mehrere Wochen oder Monate in Anspruch 
+                        nehmen können. Wir geben Ihnen im Angebot einen konkreten Zeitplan.
+                    </p>
+                </div>
+                
+                <div class="card mb-2">
+                    <h3>Bieten Sie auch Support nach Projektabschluss?</h3>
+                    <p>
+                        Ja! Wir bieten verschiedene Support- und Wartungspakete an. Sie können uns 
+                        jederzeit bei Fragen oder Problemen kontaktieren. Viele unserer Kunden schätzen 
+                        die langfristige Partnerschaft.
+                    </p>
+                </div>
+                
+                <div class="card mb-2">
+                    <h3>Arbeiten Sie auch mit Kunden außerhalb Ihrer Region?</h3>
+                    <p>
+                        Ja, viele unserer Projekte führen wir remote durch. Der persönliche Kontakt 
+                        vor Ort ist schön, aber kein Muss. Wir nutzen moderne Kommunikationstools 
+                        für eine effektive Zusammenarbeit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Map Placeholder Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-2">So finden Sie uns</h2>
+            
+            <div style="max-width: 900px; margin: 0 auto;">
+                <!-- Placeholder for Google Maps or similar -->
+                <div style="width: 100%; height: 400px; background-color: var(--border-color); 
+                     border-radius: 12px; display: flex; align-items: center; justify-content: center; 
+                     color: var(--text-light); font-style: italic;">
+                    <div style="text-align: center; padding: 2rem;">
+                        <p style="font-size: 1.25rem; margin-bottom: 1rem;">🗺️ Karten-Platzhalter</p>
+                        <p>
+                            Fügen Sie hier eine Google Maps-Integration oder eine andere Karte ein.<br>
+                            Beispiel: &lt;iframe src="Google Maps Embed URL"&gt;&lt;/iframe&gt;
+                        </p>
+                    </div>
+                </div>
+                
+                <p class="text-center mt-2" style="color: var(--text-light);">
+                    <small>
+                        Um eine Google Maps-Karte einzubetten, besuchen Sie 
+                        <a href="https://www.google.com/maps" target="_blank" style="color: var(--primary-color);">
+                            Google Maps
+                        </a>, suchen Sie Ihre Adresse, klicken auf "Teilen" → "Karte einbetten" 
+                        und kopieren Sie den iframe-Code hierher.
+                    </small>
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="section section-alt">
+        <div class="container text-center">
+            <h2>Noch Fragen?</h2>
+            <p class="mb-2">
+                Zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, 
+                von Ihnen zu hören und Sie bei Ihrem Projekt zu unterstützen!
+            </p>
+            <div class="btn-group">
+                <a href="tel:+491234567890" class="btn btn-primary">Jetzt anrufen</a>
+                <a href="mailto:info@smartbusiness.de" class="btn btn-outline">E-Mail senden</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 SmartBusiness Solutions. Alle Rechte vorbehalten.</p>
+                <div class="footer-links">
+                    <a href="#">Impressum</a>
+                    <a href="#">Datenschutz</a>
+                    <a href="#">AGB</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags - Customize these for your business -->
+    <meta name="description" content="Professionelle Automatisierung, Website-Entwicklung und Smart Solutions für kleine Unternehmen und Handwerksbetriebe. Sparen Sie Zeit und Geld mit modernen digitalen Lösungen.">
+    <meta name="keywords" content="Automatisierung, Website-Entwicklung, Smart Solutions, Handwerk, kleine Unternehmen, digitale Transformation">
+    <meta name="author" content="Your Business Name">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Smart Solutions für Ihr Unternehmen">
+    <meta property="og:description" content="Professionelle Automatisierung und Website-Entwicklung für kleine Unternehmen">
+    
+    <title>Home - Smart Business Solutions</title>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Logo/Brand - Replace with your logo -->
+            <a href="index.html" class="navbar-brand">
+                <!-- You can add an image logo here: <img src="images/logo.png" alt="Company Logo"> -->
+                SmartBusiness
+            </a>
+            
+            <!-- Mobile Menu Toggle -->
+            <div class="navbar-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">Über Uns</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <!-- Main Headline - Customize this text -->
+            <h1>Modernisieren Sie Ihr Geschäft mit Smart Solutions</h1>
+            
+            <!-- Subheadline - Describe your services -->
+            <p>
+                Professionelle Automatisierung, Website-Entwicklung und intelligente Lösungen 
+                für kleine Unternehmen und Handwerksbetriebe. Sparen Sie Zeit, reduzieren Sie Kosten 
+                und steigern Sie Ihre Effizienz.
+            </p>
+            
+            <!-- Call-to-Action Buttons -->
+            <div class="btn-group">
+                <a href="contact.html" class="btn btn-primary">Kostenlose Beratung anfordern</a>
+                <a href="services.html" class="btn btn-secondary">Unsere Services entdecken</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Overview Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center">Unsere Kernleistungen</h2>
+            <p class="text-center mb-3">Maßgeschneiderte Lösungen für Ihr Unternehmen</p>
+            
+            <div class="card-grid">
+                <!-- Service Card 1: Automation -->
+                <div class="card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Automatisierung</h3>
+                    <p>
+                        Automatisieren Sie wiederkehrende Aufgaben und sparen Sie wertvolle Zeit. 
+                        Von Rechnungserstellung bis Kundenkommunikation – wir machen es möglich.
+                    </p>
+                    <a href="services.html#automation" class="btn btn-outline">Mehr erfahren</a>
+                </div>
+                
+                <!-- Service Card 2: Website Development -->
+                <div class="card">
+                    <div class="card-icon">🌐</div>
+                    <h3>Website-Entwicklung</h3>
+                    <p>
+                        Professionelle, responsive Websites, die Ihre Kunden begeistern. 
+                        Moderne Designs, schnelle Ladezeiten und optimiert für alle Geräte.
+                    </p>
+                    <a href="services.html#websites" class="btn btn-outline">Mehr erfahren</a>
+                </div>
+                
+                <!-- Service Card 3: Smart Solutions -->
+                <div class="card">
+                    <div class="card-icon">💡</div>
+                    <h3>Smart Solutions</h3>
+                    <p>
+                        Individuelle digitale Lösungen für Ihre spezifischen Herausforderungen. 
+                        Beratung, Konzeption und Umsetzung aus einer Hand.
+                    </p>
+                    <a href="services.html#consulting" class="btn btn-outline">Mehr erfahren</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Savings Calculator Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="calculator">
+                <h2 class="text-center mb-2">Einsparungsrechner</h2>
+                <p class="text-center mb-3">
+                    Berechnen Sie, wie viel Geld Sie durch Automatisierung sparen können
+                </p>
+                
+                <!-- Calculator Inputs -->
+                <div style="max-width: 600px; margin: 0 auto;">
+                    <div class="calculator-input-group">
+                        <label for="hours-saved">Wie viele Stunden sparen Sie pro Woche?</label>
+                        <input 
+                            type="number" 
+                            id="hours-saved" 
+                            class="calculator-input" 
+                            min="0" 
+                            step="0.5" 
+                            value="5"
+                            placeholder="z.B. 5">
+                    </div>
+                    
+                    <div class="calculator-input-group">
+                        <label for="hourly-wage">Ihr Stundenlohn (€):</label>
+                        <input 
+                            type="number" 
+                            id="hourly-wage" 
+                            class="calculator-input" 
+                            min="0" 
+                            step="1" 
+                            value="30"
+                            placeholder="z.B. 30">
+                    </div>
+                </div>
+                
+                <!-- Calculator Results -->
+                <div class="calculator-results">
+                    <div class="result-box">
+                        <div class="result-label">Monatliche Ersparnis</div>
+                        <div>
+                            <span id="monthly-savings" class="result-value">600.00</span>
+                            <span class="result-currency">€</span>
+                        </div>
+                    </div>
+                    
+                    <div class="result-box">
+                        <div class="result-label">Jährliche Ersparnis</div>
+                        <div>
+                            <span id="yearly-savings" class="result-value">7,200.00</span>
+                            <span class="result-currency">€</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="text-center mt-2" style="opacity: 0.9;">
+                    <small>
+                        * Basierend auf 4 Wochen pro Monat und 12 Monaten pro Jahr. 
+                        Die tatsächlichen Einsparungen können variieren.
+                    </small>
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Why Choose Us Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-3">Warum uns wählen?</h2>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h4>🎯 Fokus auf kleine Unternehmen</h4>
+                    <p>
+                        Wir verstehen die Bedürfnisse von Handwerksbetrieben und kleinen Firmen. 
+                        Unsere Lösungen sind erschwinglich und praxisnah.
+                    </p>
+                </div>
+                
+                <div class="card">
+                    <h4>⚡ Schnelle Umsetzung</h4>
+                    <p>
+                        Zeit ist Geld. Wir setzen Ihre Projekte zügig um, ohne Kompromisse 
+                        bei der Qualität einzugehen.
+                    </p>
+                </div>
+                
+                <div class="card">
+                    <h4>🤝 Persönliche Betreuung</h4>
+                    <p>
+                        Direkter Kontakt, individuelle Beratung und langfristige Unterstützung. 
+                        Wir sind Ihr Partner für digitale Transformation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call-to-Action Section -->
+    <section class="section section-alt">
+        <div class="container text-center">
+            <h2>Bereit für den nächsten Schritt?</h2>
+            <p class="mb-2">
+                Kontaktieren Sie uns noch heute für eine kostenlose Erstberatung. 
+                Lassen Sie uns gemeinsam herausfinden, wie wir Ihr Geschäft voranbringen können.
+            </p>
+            <a href="contact.html" class="btn btn-primary">Jetzt Kontakt aufnehmen</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 SmartBusiness Solutions. Alle Rechte vorbehalten.</p>
+                
+                <!-- Footer Links - Add your legal pages here -->
+                <div class="footer-links">
+                    <a href="#">Impressum</a>
+                    <a href="#">Datenschutz</a>
+                    <a href="#">AGB</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
